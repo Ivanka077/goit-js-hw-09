@@ -13,6 +13,7 @@ let countdownIntervalId;
 
 startButton.addEventListener("click", startCountdown);
 const NOTIFICATION_DELAY = 1000;
+startButton.disabled = true;
 
 const options = {
   enableTime: true,
